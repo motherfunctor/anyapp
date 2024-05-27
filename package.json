@@ -1,0 +1,24 @@
+{
+  "name": "anyapp",
+  "version": "0.0.0",
+  "description": "Application Kickstarter",
+  "main": "index.js",
+  "scripts": {
+    "build": "NODE_ENV=production node build.js",
+    "dev": "NODE_ENV=development node build.js"
+  },
+  "keywords": [],
+  "author": "Tal Weinfeld <talw@webwise.co.il>",
+  "license": "ISC",
+  "dependencies": {
+    "kefir": "^3.8.8",
+    "ramda": "^0.30.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.21.2",
+    "less": "^4.2.0",
+    "less-plugin-clean-css": "^1.5.1",
+    "lodash": "^4.17.21",
+    "prettier": "^3.2.5"
+  }
+}
